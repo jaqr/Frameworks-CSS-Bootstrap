@@ -1,0 +1,51 @@
+/*estilos de fondo de pagina*/
+body {
+  width: auto;
+  background-image: url(../images/p_bg.jpg);
+}
+
+/*configuración de header*/
+.head-1 {
+  background-color: #e63462;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.head-2 {
+  background-color: #e63462;
+  border-radius: 10px;
+}
+
+.social{
+  margin-bottom: 10px;
+}
+
+/*configuración del área de noticias*/
+.news {
+  color: #FFFFFF;
+}
+
+.comments{
+  margin: 15px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
+.news-area {
+  border-radius: 5px;
+  background-color: #2A0511;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .head-1{
+    margin-bottom: 5px;
+  }
+  .social{
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  .news{
+    font-size: 0.75em;
+  }
+}
